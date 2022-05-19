@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <title>Blastoff</title>
+  <!--Reference to the CSS file-->
+  <link rel="stylesheet" href="Blastoff Style.css">
+
+<body align="center">
+  <h1>
+    Press the button to begin Blastoff
+  </h1>
+  <!--Generating a button with an onlick event that starts a interval timer to count down the function-->
+  <button id="Launch" onclick="countdownInterval = setInterval(Countdown, 1000);">
+    Launch Button
+  </button>
+  <h2 id="Countdown"></h2>
+  <!--Reference to the Javascript file-->
+  <script src="Countdown.js">
+    Countdown();
+
+  </script>
+</body>
+</head>
+
+</html>
